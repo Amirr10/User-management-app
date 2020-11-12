@@ -1,0 +1,41 @@
+.user-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid rgb(58, 57, 57); */
+}
+
+.user-box {
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 1px 1px;
+    border-radius: 3px;
+    background-color: rgb(135, 196, 253);
+}
+
+.user-role {
+    position: absolute;
+    bottom: 0;
+    height: 35%;
+    width: 100%;
+    /* border: 1px solid black */
+}
+
+
+.user-details {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.role-line {
+    border: 0.1px solid rgb(206, 205, 205);
+}
